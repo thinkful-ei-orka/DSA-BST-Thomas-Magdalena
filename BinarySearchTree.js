@@ -1,5 +1,5 @@
 class BinarySearchTree {
-  constuctor(key = null, value = null, parent = null) {
+  constructor(key = null, value = null, parent = null) {
     this.key = key;
     this.value = value;
     this.parent = parent;
