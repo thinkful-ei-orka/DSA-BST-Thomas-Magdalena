@@ -1,4 +1,4 @@
-export default class BinarySearchTree {
+class BinarySearchTree {
     constuctor(key = null, value = null, parent = null) {
         this.key = key;
         this.value = value;
@@ -94,3 +94,5 @@ export default class BinarySearchTree {
         }
     }
 }
+
+module.exports = BinarySearchTree;
